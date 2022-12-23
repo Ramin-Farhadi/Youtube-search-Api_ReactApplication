@@ -1,4 +1,4 @@
->>> Youtube Search application <<<<
+>>> Youtube Search application 
 
 - This is a single-page react application. 
 - By writing a string in the search bar, it will send to youtube api
