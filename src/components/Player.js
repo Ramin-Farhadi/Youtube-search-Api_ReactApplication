@@ -25,7 +25,7 @@ const Player = (videoId) => {
 return (
     <div width="100%" height='auto'>
       {videoPlayer ? <iframe title={videoTitle.title} src={videoPlayer.props.src} width='100%' height='350px' allow={videoPlayer.props.allow} allowFullScreen='allowfullscreen'></iframe> : ''}
-      <h3>{videoTitle.title}</h3><span>{videoTitle.channelTitle}</span>
+      <h3>{videoTitle.title}</h3><span style={{color:'gray'}}>{videoTitle.channelTitle}</span>
     </div>
     )
 }

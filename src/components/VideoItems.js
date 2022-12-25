@@ -19,13 +19,12 @@ const VideoItems = ({items,videoIdHandler}) => {
         <Box sx={{fontWeight:'500'}}>
           {item.snippet.title}
         </Box>
-        <Box sx={{pt:'5px'}}>
+        <Box sx={{pt:'5px',color:'gray'}}>
           {item.snippet.channelTitle}
         </Box>
       </Grid2>
     </Grid2>
     ))}
-    
     </>
   )
 }
